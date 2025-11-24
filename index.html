@@ -1,0 +1,69 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<head>
+ 
+  <meta name="description" content="Verminetor" <meta name="viewport"
+    content="width=device-width, initial-scale=0.5, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <style>
+    p {
+      color: red;
+    }
+
+    h1 {
+      color: red;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+  </style>
+</head>
+
+
+<body bgcolor="#000000" style="overflow: hidden;" onload="load('game')">
+
+
+  <div id="fb-root"></div>
+
+
+  <!--<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/it_IT/sdk.js#xfbml=1&appId=457764034357896&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>-->
+  <table>
+    <tr>
+      <td>
+        <center>
+          <canvas id="game" name="game" width="800" height="600" style="border: 1px solid 192a55; ">
+          </canvas>
+        </center>
+      </td>
+      <td>
+        <h1>VERMINATOR</h1> </br>
+        <p>
+          I perfidi vermi e bagarozzi vogliono conquistare la terra solo un gallo può fermarli</br>
+          premi invio su start per iniziare
+          <img src="immagini/gallo.png" height="50 px" width="70 px"></br>
+          salta sui vermi per fare più punti </br>
+          <img src="immagini/sfondo.png" height="50 px" width="70 px">
+        </p>
+      </td>
+    </tr>
+  </table>
+  <script src="script.js"></script>
+  <script src="presentazione.js"></script>
+  <script src="eventi_touch.js"></script>
+  <script src="keyboard_movimenti.js"></script>
+  <script src="punteggio.js"></script>
+  <script src="livello1.js"></script>
+  <script src="tempo_ridisegna.js"></script>
+</body>
+
+</html>

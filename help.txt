@@ -1,0 +1,28 @@
+Il metodo drawImage() ha diverse firme, ciascuna delle quali accetta un insieme diverso di parametri. Questo consente di disegnare immagini con diverse configurazioni, come scalare, ritagliare o applicare trasformazioni. Ecco le firme principali del metodo drawImage():
+
+drawImage(image, dx, dy)
+
+image: L'oggetto Image, Canvas, o Video da disegnare sul canvas.
+dx: La coordinata x sulla quale disegnare l'immagine all'interno del canvas.
+dy: La coordinata y sulla quale disegnare l'immagine all'interno del canvas.
+drawImage(image, dx, dy, dWidth, dHeight)
+
+image: L'oggetto Image, Canvas, o Video da disegnare sul canvas.
+dx: La coordinata x sulla quale disegnare l'immagine all'interno del canvas.
+dy: La coordinata y sulla quale disegnare l'immagine all'interno del canvas.
+dWidth: Larghezza da applicare all'immagine nel canvas (opzionale, se non specificato, sarà utilizzata la larghezza dell'immagine originale).
+dHeight: Altezza da applicare all'immagine nel canvas (opzionale, se non specificato, sarà utilizzata l'altezza dell'immagine originale).
+drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight)
+
+image: L'oggetto Image, Canvas, o Video da disegnare sul canvas.
+sx: La coordinata x del punto di origine dal quale ritagliare l'immagine originale.
+sy: La coordinata y del punto di origine dal quale ritagliare l'immagine originale.
+sWidth: Larghezza dell'area da ritagliare dall'immagine originale.
+sHeight: Altezza dell'area da ritagliare dall'immagine originale.
+dx: La coordinata x sulla quale disegnare l'immagine all'interno del canvas.
+dy: La coordinata y sulla quale disegnare l'immagine all'interno del canvas.
+dWidth: Larghezza da applicare all'immagine nel canvas (opzionale, se non specificato, sarà utilizzata sWidth).
+dHeight: Altezza da applicare all'immagine nel canvas (opzionale, se non specificato, sarà utilizzata sHeight).
+Questi sono i principali insiemi di parametri supportati dal metodo drawImage() che consentono di disegnare immagini con diverse trasformazioni e opzioni.
+
+
